@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.2'
-sqlite 
+`sudo apt install sqlite3`
 
 gem 'sinatra', '~> 2.2.0'
 gem 'puma', '~> 5.6.4'
